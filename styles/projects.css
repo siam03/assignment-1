@@ -1,6 +1,7 @@
 .{
     margin: 0;
     padding: 0;
+
 }
 .banner-section{
     width: 1600px;
@@ -92,4 +93,29 @@ border: 0;
 padding: 18px 35px;
 height: 64px;
 background-color: #e05e26;
+}
+.contact{
+    width: 1600px;
+height: 577px;
+left: 36px;
+top: 2639px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ gap: 200px;
+ background: #151414;
+}
+.contact-title{
+    color: #f8f8f8;
+}
+
+.contact input{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px ;
+}
+.contact a{
+    text-decoration: none;
 }
