@@ -1,0 +1,32 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.banner-section{
+    width: 1600px;
+    height: 778px;
+    top: 31px;
+    left: 1600px;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+.banner-title{
+color: #151414;
+}
+.banner-sub-title{
+    color: #444343;
+}
+.btn-primary{
+border-radius: 5px;
+color: #ffff;
+font-weight: 700;
+font-size: 20px;
+border: 0;
+padding: 18px 35px;
+height: 64px;
+background-color: #f15b22;
+}
