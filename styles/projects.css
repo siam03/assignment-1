@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: right;
+
 }
 .banner-title{
 color: #151414;
@@ -29,4 +30,66 @@ border: 0;
 padding: 18px 35px;
 height: 64px;
 background-color: #f15b22;
+}
+.plan-section{
+    display: flex;
+    margin-top: 130px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 130px 150px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.plan-type-1{
+    color: #151414;
+}
+.plan-type-2{
+    color: #444343;
+}
+.plan-type-3{
+    
+}
+.span{
+    content: ''\2713;
+    
+}
+.my-plans-title{
+text-align: center;
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.last-plans{
+    width: 1140px;
+    height: 300px;
+    top: 2216.3;
+    left: 230px;
+    border-radius: 8px;
+    background-image:url("../images/watch.png");
+    justify-content: center;
+    align-items:center;
+    padding: 100px 100px;
+    background-repeat: no-repeat;  
+    color: #ffffff;
+    background-position: center;
+    text-align:left;
+
+}
+
+.btn-last{
+    border-radius: 5px;
+color: #f0edeb;
+font-weight: 700;
+font-size: 20px;
+border: 0;
+padding: 18px 35px;
+height: 64px;
+background-color: #e05e26;
 }
